@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.pyre/
+.dmypy.json
+.nox/
+.tox/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Model/data artifacts (project-specific)
+analysis_git200/data/
+model_training/data/
+model_training/runs/
+
+# ML weights and binaries
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.hdf5
+
+# Media & archives
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+
+# Logs
+*.log
