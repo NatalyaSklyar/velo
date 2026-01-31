@@ -37,7 +37,9 @@ venv/
 # Model/data artifacts (project-specific)
 analysis_git200/data/
 model_training/data/
-model_training/runs/
+model_training/runs/*.png
+model_training/runs/*.jpg
+
 
 # ML weights and binaries
 *.pt
