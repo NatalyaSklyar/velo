@@ -35,14 +35,13 @@ venv/
 .DS_Store
 
 # Model/data artifacts (project-specific)
-analysis_git200/data/
+analysis_git200/data/processed_dataset/visualizations/out_per_episode/
 model_training/data/
-model_training/runs/*.png
-model_training/runs/*.jpg
+model_training/runs/**/*.png
+model_training/runs/**/*.jpg
 
 
 # ML weights and binaries
-*.pt
 *.pth
 *.ckpt
 *.onnx
@@ -52,7 +51,7 @@ model_training/runs/*.jpg
 *.hdf5
 
 # Media & archives
-# *.mp4
+*.mp4
 *.avi
 *.mov
 *.mkv
