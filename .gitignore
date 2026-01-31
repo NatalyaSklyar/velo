@@ -50,7 +50,7 @@ model_training/runs/
 *.hdf5
 
 # Media & archives
-*.mp4
+# *.mp4
 *.avi
 *.mov
 *.mkv
